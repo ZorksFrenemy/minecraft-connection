@@ -8,3 +8,6 @@ we'll start figuring out how to connect to minecraft with python, and also save 
 - then start a list of issues I need to figure out to connect to minecraft with python
 
 - and meanwhile keep some notes about minecraft and what I want to do
+
+
+- Found out how to make bullets! (dash space)
