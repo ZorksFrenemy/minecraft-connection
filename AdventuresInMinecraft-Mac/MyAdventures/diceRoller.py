@@ -51,7 +51,7 @@ def roll():
     die = [one, two, three, four, five, six]
     random.choice(die)(x,y,z)
     #six(x,y,z)
-    time.sleep(0.1)
+    time.sleep(0.2)
     mc.setBlocks(x-3,y,z,x+3,y+6,z,block.AIR)
     
     
