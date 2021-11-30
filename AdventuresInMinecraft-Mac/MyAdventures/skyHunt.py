@@ -34,10 +34,11 @@ def checkHit ():
             mc.postToChat("HIT!")
             score = score + 10
             mc.setBlock(treasure_x,treasure_y, treasure_z, block.AIR.id)
-            treasure_x, None
+            treasure_x = None
 
 
-
+TIMEOUT = 10
+timer = TIMEOUT
 
 
 def homingBeacon():
@@ -57,16 +58,32 @@ def homingBeacon():
 bridge = []
 
 def buildBridge():
-    print("buildBridge")
+    global score
+    pos = mc.player.getTilePos()
+    b = mc.getBlock(pos.x, pos.y-1,pos.z)
+    
+    if treasure_x == None:
+        if len(bridge) > 0:
+            coordinate = bridge.pop()
+            mc.setBlock(coordinate[0],
+                        coordinate[1],
+                        coordinate[2],
+                        block.AIR.id)
+            mc.postToChat("bridge:" + str(len(bridge)))
+            time.sleep(0.25)
+    elif b != block.GOLD_BLOCK.id:
+        mc.setBlock(pos.x, pos.y-1, pos.z, block.GOLD_BLOCK.id)
+        coordinate = [pos.x, pos.y-1, pos.z]
+        bridge.append(coordinate)
+        score = score - 1
 
 while True:
-    time.sleep(1)
+    time.sleep(.1)
 
     if treasure_x == None and len(bridge) == 0:
         placeTreasure()
 
     checkHit()
-    TIMEOUT = 1
-    timer = TIMEOUT
+   
     homingBeacon()
     buildBridge()
