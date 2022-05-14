@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "754dea65-0c5b-3ba3-805e-94826562b1eb",
+    "name": "ZorksFrenemy",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
