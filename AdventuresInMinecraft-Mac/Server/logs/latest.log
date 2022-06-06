@@ -1,58 +1,8 @@
-[13:39:01] [Server thread/INFO]: Loading properties
-[13:39:01] [Server thread/INFO]: Default game type: CREATIVE
-[13:39:01] [Server thread/INFO]: Generating keypair
-[13:39:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:39:01] [Server thread/INFO]: Using default channel type
-[13:39:01] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
-[13:39:01] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
-[13:39:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:39:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:39:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:39:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:39:01] [Server thread/INFO]: Preparing level "world"
-[13:39:02] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2563831088963158734)
-[13:39:03] [Server thread/INFO]: Preparing spawn area: 48%
-[13:39:03] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2563831088963158734)
-[13:39:04] [Server thread/INFO]: Preparing start region for level 2 (Seed: 2563831088963158734)
-[13:39:04] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
-[13:39:04] [Server thread/INFO]: [RaspberryJuice] Using port 4711
-[13:39:04] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
-[13:39:04] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
-[13:39:04] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
-[13:39:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:39:04] [Server thread/INFO]: Done (2.833s)! For help, type "help" or "?"
-[13:40:42] [Server thread/INFO]: ZorksFrenemy[/127.0.0.1:52173] logged in with entity id 69 at ([world]183.0172630497488, 68.0, -27.074014461681166)
-[13:41:13] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
-[13:41:13] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52174.
-[13:41:13] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
-[13:41:13] [Server thread/INFO]: 0[m
-[13:41:13] [Server thread/INFO]: 1[m
-[13:41:13] [Server thread/INFO]: 2[m
-[13:41:13] [Server thread/INFO]: 3[m
-[13:41:13] [Server thread/INFO]: 4[m
-[13:41:13] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52174.
-[13:41:31] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52175.
-[13:41:31] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
-[13:41:31] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
-[13:41:38] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52175.
-[13:41:53] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52177.
-[13:41:53] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
-[13:41:53] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
-[13:41:54] [Server thread/INFO]: 0[m
-[13:41:54] [Server thread/INFO]: 1[m
-[13:41:54] [Server thread/INFO]: 2[m
-[13:41:54] [Server thread/INFO]: 3[m
-[13:41:54] [Server thread/INFO]: 4[m
-[13:41:54] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52177.
-[13:56:01] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52215.
-[13:56:01] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
-[13:56:01] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
-[13:56:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52215.
-[13:58:15] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52219.
-[13:58:15] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
-[13:58:15] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
-[13:58:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52219.
-[13:58:47] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
-[13:58:47] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52220.
-[13:58:47] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
-[13:58:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52220.
+[00:04:52] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7193263ms behind, skipping 143865 tick(s)
+[00:04:53] [Server thread/WARN]: Time ran backwards! Did the system time change?
+[00:51:38] [Server Watchdog/FATAL]: A single server tick took 2791.21 seconds (should be max 0.05)
+[00:51:38] [Server Watchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+[00:51:38] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2790717ms behind, skipping 55814 tick(s)
+[00:51:42] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2031ms behind, skipping 40 tick(s)
+[00:51:42] [Server Watchdog/ERROR]: This crash report has been saved to: /Users/andybryant/minecraft-connection/AdventuresInMinecraft-Mac/Server/./crash-reports/crash-2022-05-17_00.51.42-server.txt
+[00:51:42] [Thread-3/INFO]: Stopping server
