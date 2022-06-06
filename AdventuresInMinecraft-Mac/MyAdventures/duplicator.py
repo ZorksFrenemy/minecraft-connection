@@ -1,4 +1,3 @@
-import imp
 import mcpi.minecraft as minecraft
 import mcpi.block as block
 import glob
@@ -47,10 +46,10 @@ while anotherGo:
     elif choice == 2:
         listFiles()
     elif choice == 3:
-        filename = input("filename?")
+        filename = raw_input("filename?")
         scan3D(filename, roomx+1, roomy+1, roomz+1)
     elif choice == 4:
-        filename = input("filename?")
+        filename = raw_input("filename?")
         print3D(filename, roomx+1, roomz+1, roomz+1)
     elif choice == 5:
         scan3D("scantemp", roomx+1, roomy+1, roomz+1)
